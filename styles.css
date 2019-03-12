@@ -1,0 +1,14 @@
+.important {
+                font-size: 30px;
+                color: #123ABC;
+                font-style: italic;
+            }
+
+#box1{ 
+background-color: lightcyan;
+    border: 10px solid pink; 
+    height: 100px;
+    width: 200px;
+    margin-left: 60px;
+    padding-top: 100ox; 
+}
