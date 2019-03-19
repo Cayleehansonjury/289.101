@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+
+<html>
+    <html> 
+<head>
+    <title> Layout 5 </title>
+    <style> 
+        div { 
+        outline: 1px solid black;
+        }
+    
+        .container { 
+            width: 800px;
+            margin: auto;
+        }
+    
+        #blue { 
+            background-color:blue;
+            display: grid;
+            grid-template-columns: 75% 25%;
+            height: 200px;
+        }
+        #logo { 
+        background-color:yellow;
+            grid-column:2/3;
+            margin: 20px;
+    
+        }
+        .red{
+            background-color:red;
+             display:grid;
+            height:400px;   
+            grid-template-columns: 30% 70% ;
+            
+        }
+        
+        .red-right {
+            display:grid;
+            grid-template-columns:30% 70%;
+            padding: 20px;
+                
+        }
+        
+        #small-yellow { 
+            background-color: yellow;
+            height:150px;
+        }
+        
+        #big-yellow {
+            background-color: yellow;
+            margin: 20px;
+            
+            
+        }
+        #green { 
+        background-color: lime;
+            grid-column:1/4;
+            height: 200px;
+        }
+        #yellow{ 
+        background-color:yellow; 
+            margin:20px;
+        } 
+        
+        
+    </style>
+    </head>
+    <body>
+        
+        <div class= "container"> 
+            <div id="blue">
+                <div id="logo"></div>
+            </div>
+            
+            <div class="red">
+                <div class="red-left"></div>
+                <div class="red-right">
+                    <div id="small-yellow"></div>
+                    <div id="big-yellow"></div>
+                </div>
+            </div>
+            
+            <div id="green"></div>
+        </div>
+    </body>
+    
+    </html>
