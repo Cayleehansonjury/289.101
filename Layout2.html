@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> Bootstrap </title>
+        <meta charset="utf-8"/> 
+        <meta name="viewport" content="width=device-width, initial-scale="/>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <style>
+            *{ outline:white 8px solid  }
+        
+            .blue{
+                background-color: #3FB4FF;
+                height: 150px;
+                
+            }
+            
+            .green { 
+                 background-color: chartreuse;
+                 height:120px;
+            }
+            
+            .orange {
+                 background-color: orange;
+                 height: 180px;
+                
+            }
+            .maroon {
+                background-color: maroon;
+                 height: 180px;
+            }
+            
+            .grey { 
+                 background-color:darkgray;
+                height: 175px;
+                width: 175px;
+                
+            }
+            /*sm*/ 
+            @media (min-width:576px) { 
+                .green { 
+                 height:250px;
+                }
+                 .orange {
+                 height: 700px;    
+            }
+            }
+            /*md*/ 
+            @media (min-width:768px) { 
+                      .orange {
+                 height: 600px;    
+            }
+                .maroon {
+                background-color: maroon;
+                 height: 600px;
+            }
+                .grey { 
+                 background-color:darkgray;
+                height: 175px;
+                width: 175px;
+                
+            }
+            }
+            /*lg*/ 
+            @media (min-width:992px) { 
+                .blue{
+                height: 80px;
+                }
+                .green { 
+                     height:900px;
+                }
+                 .orange {
+                 height: 900px;    
+            }
+                .maroon {
+                 height: 900px;
+            }
+            }
+            /*xl*/ 
+            @media (min-width:1200px) { 
+            
+            }
+        </style>
+    
+    </head>
+
+    <body>
+    
+        <div class="container">
+        
+              <div class="row">
+             <div class="blue col-12 col-lg-12"></div>
+           
+           </div>
+       
+            
+            <div class="row">
+                <div class="green col-12 col-lg-3 col-md-12 "></div>
+                <div class="orange col-12 col-lg-6 col-md-6">
+                    <div class="row">
+                 <div class="grey"> </div>
+                    <div class="grey"> </div>
+                    <div class="grey"> </div>
+                    <div class="grey"> </div>
+                    <div class="grey"> </div>
+                    <div class="grey"> </div>
+                </div>
+                </div> 
+                <div class="maroon col-12 col-lg-3 col-md-6"></div>
+            </div>
+            
+        
+            
+            
+            
+        </div>
+        
+        </div>
+
+    </body>
+</html>
